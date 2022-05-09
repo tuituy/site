@@ -1,0 +1,46 @@
+header {
+    width: 95%;
+    margin: 3em;
+
+
+}
+
+.container {
+    width: 100%;
+    
+    
+
+}
+
+ul {
+    border: 1px solid black;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-right: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+
+    
+    
+
+
+
+    background-color: rgb(25, 20, 34) ;
+
+
+}
+nav {
+    margin: 20p;
+}
+.logo {
+    width: 300px;
+    margin: 20px 20px; 
+    position: absolute;
+    
+}
+
