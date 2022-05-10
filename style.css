@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    width: 100%;
+}
+
 header {
     width: 95%;
     margin: 3em;
@@ -5,12 +10,13 @@ header {
 
 }
 
+
 .container {
-    width: 100%;
-    
+    width: 100%;   
     
 
 }
+
 
 ul {
     border: 1px solid black;
@@ -23,13 +29,8 @@ ul {
     gap: 50px;
     padding-right: 40px;
     border-radius: 15px;
-    font-size: 20px;
-
-    
-    
-
-
-
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;   
     background-color: rgb(25, 20, 34) ;
 
 
@@ -43,4 +44,119 @@ nav {
     position: absolute;
     
 }
+.banner {
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
+main {
+    background-color:black ;
+    width: 940px 100%;
+    
+
+}
+.principal {
+    color:rgb(25, 20, 34);
+    text-align: center;
+
+}
+.titulo-principal {
+    font-size: 70px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(67,75,231 );
+    font-family: 'Bebas Neue', cursive; 
+}
+p {
+    font-size: 30px;
+    padding: 1em;
+    color: rgb(176, 176, 176);
+    font-family: 'Koulen', cursive;
+
+}
+.titulo-secundario {
+    font-size: 50px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(67,75,231 );
+    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    
+}
+.secundario p {
+    font-size: 25px;
+    text-align: center;
+}
+.mapa {
+    text-align: center;
+    opacity: 0.9;
+
+}
+.videos {
+    
+    display: flex;
+    height: 50%;
+    width: 95%;
+    justify-content: space-around;
+    gap: 1em;  
+    margin: 30px 0 30px 0;
+    opacity: 0.8;
+    margin-left: 2em;
+
+
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(bg.jpg);
+    padding-top: 1,5em ;
+    font-size: 20px;    
+    padding-top: 50px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    header,  {
+        width: auto;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    ul {
+        width: 12em;
+        text-align: center;
+        height: 100%;
+        flex-direction: row;
+        justify-content: center;      
+        font-size: 2em;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .logo {
+        position: relative;
+    }
+    .videos {
+        flex-direction:column;
+        padding: 2px 2px 2px 2px;  
+        
+    }
+    .mapa {
+        margin-left: 1.2em;
+    }
+    html {
+        width: 480px;
+    }
+    footer {
+        width: 504px;
+        padding-top: 30px ;
+        
+        
+    }
+    
+}
