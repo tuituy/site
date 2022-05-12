@@ -1,3 +1,11 @@
+nav a {
+    color: rgb(67,75,231 );
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
 body {
     background-color: black;
     width: 100%;
@@ -19,6 +27,11 @@ header {
 
 
 ul {
+    
+
+
+}
+nav ul {
     border: 1px solid black;
     align-items: center;
     width: 95%;
@@ -32,10 +45,6 @@ ul {
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;   
     background-color: rgb(25, 20, 34) ;
-
-
-}
-nav {
     margin: 20p;
 }
 .logo {
@@ -54,6 +63,7 @@ nav {
 main {
     background-color:black ;
     width: 940px 100%;
+    
     
 
 }
@@ -74,6 +84,7 @@ p {
     padding: 1em;
     color: rgb(176, 176, 176);
     font-family: 'Koulen', cursive;
+    text-transform: uppercase;
 
 }
 .titulo-secundario {
