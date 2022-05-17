@@ -55,71 +55,61 @@ header {
 .banner {
     opacity: 0.1;
     width: 100%;
-    height: 100%;
+    height: 110%;
     position: absolute;
 }
 
+
 main {
-    background-color:black ;
-    width: 940px 100%;
-    
-    
-
-}
-.principal {
-    color:rgb(25, 20, 34);
-    text-align: center;
-
-}
-.titulo-principal {
-    font-size: 70px;
-    padding-top: 30px;
-    margin-bottom: 15px;
-    color: rgb(67,75,231 );
-    font-family: 'Bebas Neue', cursive; 
-}
-p {
-    font-size: 30px;
-    padding: 1em;
-    color: rgb(176, 176, 176);
-    font-family: 'Koulen', cursive;
-    text-transform: uppercase;
-
-}
-.titulo-secundario {
-    font-size: 50px;
-    padding-top: 30px;
-    margin-bottom: 15px;
-    color: rgb(67,75,231 );
-    font-family: 'Bebas Neue', cursive; 
-    text-align: center;
-    
-}
-.secundario p {
-    font-size: 25px;
-    text-align: center;
-}
-.mapa {
-    text-align: center;
-    opacity: 0.9;
-
-}
-.videos {
-    
+    width: 100%;
     display: flex;
-    height: 50%;
-    width: 95%;
-    justify-content: space-around;
-    gap: 1em;  
-    margin: 30px 0 30px 0;
-    opacity: 0.8;
-    margin-left: 2em;
-
-
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0 15px 0;
+    
     
 }
 
-footer,.copyright {
+form {
+    
+
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 80%;
+
+}
+
+table {
+    background-color:  rgb(64, 64, 64);
+    color:white;
+    width: 50%;    
+    text-align: center;
+
+
+    
+
+}
+
+td{
+    border: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,27 +119,43 @@ footer,.copyright {
     padding-top: 50px;
 
 }
+.copyright {
+    font-size: 30px;
+    padding: 1em;
+    color: rgb(176, 176, 176);
+    font-family: 'Koulen', cursive;
+    text-transform: uppercase;
+}
 
 
 @media screen and (max-width: 480px) {
-    header,  {
+    
+    .navegacao  {
         width: auto;
-        flex-direction: column;
-        height: 100%;
+        flex-direction: row;
+        height: 180px;
+        gap:35px;
+        padding-right: 2px;
+    }
+    header {
+        width: 100%;
+        margin-left: 5px;
     }
 
     ul {
         width: 12em;
         text-align: center;
         height: 100%;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;      
-        font-size: 2em;
+        font-size: 1.6em;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
     }
     .logo {
         position: relative;
+        margin-left: 100px;
+        
     }
     .videos {
         flex-direction:column;
@@ -168,5 +174,9 @@ footer,.copyright {
         
         
     }
-    
+    label {
+        width: 100%;
+        text-align: center;
+    }
 }
+    
